@@ -72,7 +72,7 @@ object BindingAdapter {
     fun historyTitle(textView: TextView, sportInfo: SportInfo) {
         if (sportInfo.title.isEmpty()) {
             textView.text =
-                "运动时间:" + sportInfo.time + "\n配速:" + sportInfo.speed + "分/公里" + " 距离:" + sportInfo.distance + "公里"
+                "Time:" + sportInfo.time + "\nSpeed:" + sportInfo.speed + "min/km" + " Distance:" + sportInfo.distance + "km"
         } else {
             textView.text = sportInfo.title
         }

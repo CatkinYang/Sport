@@ -107,6 +107,6 @@ class UserInfoModifyFragment : BaseFragment() {
         val age = State("0")
         val height = State("0")
         val weight = State("0")
-        val sexList = listOf("男", "女")
+        val sexList = listOf("man", "women")
     }
 }

@@ -15,7 +15,7 @@ class UserViewModel @Inject constructor(private val loginRepo: LoginRepo) : View
 
     fun addInfo(email: String) {
         viewModelScope.launch {//协程执行耗时操作，viewModelScope：CoroutineScope 绑定到此 ViewModel，清除视图模型时，将取消
-            loginRepo.addInfo(UserInfo(email, 0, 0.0, 0.0, "男", ""))
+            loginRepo.addInfo(UserInfo(email, 0, 0.0, 0.0, "man", ""))
         }
     }
 

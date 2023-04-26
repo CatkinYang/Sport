@@ -59,15 +59,15 @@ class RegisterFragment : BaseFragment() {
                                 if (task.isSuccessful) {
                                     viewModel.addInfo(email)
                                     nav().popBackStack()
-                                    ToastUtils.showShort("注册成功！")
+                                    ToastUtils.showShort("Register successfully！")
                                 } else {
                                     ToastUtils.showShort(
-                                        task.exception?.message ?: "注册失败"
+                                        task.exception?.message ?: "Registration failed"
                                     )//三目运算符如果前面为空就显示 注册失败
                                 }
                             }
                     } else {
-                        ToastUtils.showShort("两次密码不一致")
+                        ToastUtils.showShort("Inconsistent passwords")
                     }
                 }
             }

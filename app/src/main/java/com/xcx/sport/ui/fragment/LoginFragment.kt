@@ -52,10 +52,10 @@ class LoginFragment : BaseFragment() {
                     MMKV.defaultMMKV().encode(USERNAME, email)//MMKV
                     viewModel.addInfo(email1)
                     nav().popBackStack()//尝试弹出控制器的后退堆栈
-                    ToastUtils.showShort("登录成功")
+                    ToastUtils.showShort("Login successful")
                 } else {
                     // If sign in fails, display a message to the user.
-                    ToastUtils.showShort("用户名或密码错误")
+                    ToastUtils.showShort("Incorrect username or password")
                 }
             }
     }
