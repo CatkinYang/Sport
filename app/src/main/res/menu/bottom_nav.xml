@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/sportFragment"
+            android:icon="@drawable/ic_community"
+            android:title="@string/title_tutorial" />
+
+        <item
+            android:id="@+id/communityFragment"
+            android:icon="@drawable/ic_venues"
+            android:title="@string/title_venues" />
+
+        <item
+            android:id="@+id/sportMapFragment"
+            android:icon="@drawable/ic_sport"
+            android:title="@string/title_run" />
+
+        <item
+            android:id="@+id/meFragment"
+            android:icon="@drawable/ic_me"
+            android:title="@string/title_me" />
+    </group>
+</menu>

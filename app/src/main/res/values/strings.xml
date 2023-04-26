@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sport</string>
+    <string name="disconnect">Network disconnected</string>
+    <string name="connect">Network connected</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password2">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Login</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="permissions_on_denied">Denying permission will prevent normal use</string>
+    <string name="title_me">Personal</string>
+    <string name="title_venues">Sport venues</string>
+    <string name="title_tutorial">Tutorial</string>
+    <string name="title_run">Run</string>
+    <string name="save_success">Save successfully</string>
+    <string name="save_fail">Save failed</string>
+    <string name="delete_fail">Delete failed</string>
+    <string name="title_sportCourseDetailFragment">Detail</string>
+    <string name="title_user_info_modify">Modify</string>
+    <string name="title_sportHistoryDetail">Detail</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>
