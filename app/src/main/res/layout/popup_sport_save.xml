@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:padding="2dp"
-        android:text="是否结束此次运动"
+        android:text="Whether to end this running?"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
             android:id="@+id/edt_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="想记录或分享的话" />
+            android:hint="Notes" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
