@@ -105,6 +105,8 @@ class SportMapFragment : Fragment(), AMapLocationListener, LocationSource,
     private lateinit var accelerometer: Sensor
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        MapsInitializer.updatePrivacyShow(context,true,true);
+        MapsInitializer.updatePrivacyAgree(context,true);
         if (!PermissionsUtils.isLocServiceEnable(requireContext())) {
             ToastUtils.showShort("没有开启定位")
             NavHostFragment.findNavController(this).popBackStack()

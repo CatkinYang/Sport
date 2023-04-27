@@ -9,6 +9,7 @@ import com.amap.api.location.AMapLocationClient
 import com.amap.api.location.AMapLocationClientOption
 import com.amap.api.maps.AMap
 import com.amap.api.maps.CameraUpdateFactory
+import com.amap.api.maps.MapsInitializer
 import com.amap.api.maps.model.CameraPosition
 import com.amap.api.maps.model.LatLng
 import com.amap.api.maps.model.MarkerOptions
@@ -37,7 +38,12 @@ class CommunityFragment : BaseViewBindingFragment<FragmentCommunityBinding>() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        MapsInitializer.updatePrivacyShow(context,true,true);
+        MapsInitializer.updatePrivacyAgree(context,true);
+
         b.mapView.onCreate(savedInstanceState)
+
         val locationClient = AMapLocationClient(requireContext())
         locationClient.setLocationListener { location ->
             val cameraPosition = CameraPosition.Builder()
@@ -72,6 +78,8 @@ class CommunityFragment : BaseViewBindingFragment<FragmentCommunityBinding>() {
         b.mapView.onDestroy()
         super.onDestroyView()
     }
+
+
 
     private fun query(location: AMapLocation) {
         // TODO: 搜索关键词

@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "709756214395",
-    "project_id": "sport-f15c6",
-    "storage_bucket": "sport-f15c6.appspot.com"
+    "project_number": "1060399841691",
+    "project_id": "sport-cbfa4",
+    "storage_bucket": "sport-cbfa4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:709756214395:android:93c35ef8e4ff6ee16156de",
+        "mobilesdk_app_id": "1:1060399841691:android:8b7576947cb72488cc213e",
         "android_client_info": {
           "package_name": "com.xcx.sport"
         }
       },
       "oauth_client": [
         {
-          "client_id": "709756214395-ik459208gd048jta8khm5k3is9p17drd.apps.googleusercontent.com",
+          "client_id": "1060399841691-2le29tqn59bmicqsups5ann8l9lmh1o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xcx.sport",
+            "certificate_hash": "666c7576c6bbf4b657befed22201801e3668c44e"
+          }
+        },
+        {
+          "client_id": "1060399841691-05latqlkljc0cdfavnvnr5hk0r6ln107.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCEPMtNxZ57qieaBF9wYa_zIwv2BSgm9j8"
+          "current_key": "AIzaSyAZ9vbs-JSUDLeRYwUm3GOUhdr4P4YjsHY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "709756214395-ik459208gd048jta8khm5k3is9p17drd.apps.googleusercontent.com",
+              "client_id": "1060399841691-05latqlkljc0cdfavnvnr5hk0r6ln107.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

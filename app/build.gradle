@@ -61,6 +61,7 @@ dependencies {
     implementation "androidx.navigation:navigation-runtime-ktx:$nav_version"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.3'
     /*Room*/
     def room_version = "2.5.0"
     implementation "androidx.room:room-runtime:$room_version"
@@ -84,10 +85,10 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'//图表
     /*Firebase*/
     // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:31.3.0')
+    implementation platform('com.google.firebase:firebase-bom:31.5.0')
     // Add the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
     //图片加载
     implementation("io.coil-kt:coil:2.2.2")
     implementation("io.coil-kt:coil-gif:2.2.2")
